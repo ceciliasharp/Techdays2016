@@ -1,6 +1,5 @@
 ﻿namespace Editor.Demo4
 {
-
     class Person
     {
         public int Age { get; internal set; }
