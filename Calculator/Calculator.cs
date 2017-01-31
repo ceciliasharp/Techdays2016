@@ -20,5 +20,6 @@ namespace Calculator
             Sum -= 1;
         }
 
+
     }
 }

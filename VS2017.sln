@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26020.0
+VisualStudioVersion = 15.0.26127.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Editor", "Editor\Editor.csproj", "{7B94220D-D578-4097-8305-CCB3129DFE1D}"
 EndProject
@@ -47,5 +47,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D626560A-3510-49C6-99B5-E02C18B476FE} = {EB7047CB-68F6-4C7C-97C6-C176A010E45C}
+		{D5D8568F-9E72-4A8A-9472-131FD69155DE} = {EB7047CB-68F6-4C7C-97C6-C176A010E45C}
 	EndGlobalSection
 EndGlobal
