@@ -25,7 +25,7 @@ namespace Editor
     }
 
     public class Demo2
-{
+    {
 
-}
+    }
 }
