@@ -1,6 +1,6 @@
 ﻿namespace Editor.Demo4
 {
-    class refactor
+    class Refactor
     {
         public int Number { get; set; }
 
