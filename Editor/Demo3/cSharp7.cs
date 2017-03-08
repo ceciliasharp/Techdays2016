@@ -2,7 +2,6 @@
 
 namespace Editor
 {
-
     public class cSharp7
     {
         public string Name { get; set; }
@@ -19,6 +18,17 @@ namespace Editor
                 throw new ArgumentNullException();
             }
             this.Name = name;
+        }
+
+
+        public void TupleDemo()
+        {
+            var t = Test();
+        }
+
+        public Tuple<int, string> Test()
+        {
+            return new Tuple<int, string>(3, "test");
         }
     }
 }
