@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Editor.Demo4;
+using System;
 
 namespace Editor
 {
@@ -20,6 +21,15 @@ namespace Editor
             this.Name = name;
         }
 
+        public void Switch(Person p)
+        {
+            switch (p)
+            {
+
+                default:
+                    break;
+            }
+        }
 
         public void TupleDemo()
         {
