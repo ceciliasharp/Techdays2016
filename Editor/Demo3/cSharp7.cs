@@ -6,6 +6,12 @@ namespace Editor
     public class cSharp7
     {
         public string Name { get; set; }
+
+        public void Literals()
+        {
+
+        }
+
         public void ParseOut(string numberString)
         {
             int i;
