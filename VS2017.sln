@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26127.0
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Editor", "Editor\Editor.csproj", "{7B94220D-D578-4097-8305-CCB3129DFE1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAML", "XAML\XAML.csproj", "{C57AF512-10CD-4459-AD3D-D4B15B062EC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. XAML", "XAML\4. XAML.csproj", "{C57AF512-10CD-4459-AD3D-D4B15B062EC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugDemo", "DebugDemo\DebugDemo.csproj", "{043C8D9C-E737-4BE2-8E37-6E2E8500DED8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. DebugDemo", "DebugDemo\6. DebugDemo.csproj", "{043C8D9C-E737-4BE2-8E37-6E2E8500DED8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{D626560A-3510-49C6-99B5-E02C18B476FE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{EB7047CB-68F6-4C7C-97C6-C176A010E45C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Test", "5.Test", "{EB7047CB-68F6-4C7C-97C6-C176A010E45C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTests", "CalculatorTests\CalculatorTests.csproj", "{D5D8568F-9E72-4A8A-9472-131FD69155DE}"
 EndProject
