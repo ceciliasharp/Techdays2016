@@ -5,10 +5,10 @@ namespace DebugDemo
 
     class DemoClass
     {
-        public DemoClass2 Value { get; set; }
+        public DemoClass2 Item { get; set; }
         public DemoClass()
         {
-            Value = new DemoClass2();
+            Item = new DemoClass2();
         }
         public void ThrowException()
         {
@@ -18,17 +18,15 @@ namespace DebugDemo
 
     public class DemoClass2
     {
-        private DemoClass3 property;
-
-        public DemoClass3 Property()
+        public StuffClass GetDetails()
         {
             return null;
         }
 
     }
 
-    public class DemoClass3
+    public class StuffClass
     {
-        public int Text { get; set; }
+        public int Value { get; set; }
     }
 }

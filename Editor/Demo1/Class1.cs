@@ -24,8 +24,4 @@ namespace Editor
         }
     }
 
-    public class Demo2
-    {
-        private Int32 value;
-    }
 }

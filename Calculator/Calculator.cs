@@ -8,18 +8,23 @@ namespace Calculator
 {
     public class Calculator
     {
-        public int Sum { get; set; }
+        public int Amount { get; set; }
 
         public void Add(int i)
         {
-            Sum += i;
+            Amount += i;
         }
 
-        public void Substract(int i)
+        public void Subtract(int i)
         {
-            Sum -= 1;
+            Amount -= 1;
         }
-
-
+   
+        public void Divide(int i)
+        {
+            if (i < 0)
+                throw new ArgumentOutOfRangeException();
+            Amount /= i;
+        }
     }
 }

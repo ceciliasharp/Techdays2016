@@ -4,7 +4,6 @@
     {
         public int Number { get; set; }
 
-
         public void Test()
         {
             var c = new Person();

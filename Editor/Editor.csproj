@@ -52,6 +52,7 @@
     <Compile Include="Demo2\Strings.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Demo1\weather.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

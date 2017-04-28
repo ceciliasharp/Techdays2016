@@ -21,7 +21,7 @@ namespace DebugDemo
 
             var d = new DemoClass();
             d.ThrowException();
-            var t = d.Value.Property().Text;
+            var t = d.Item.GetDetails().Value;
 
         }
     }

@@ -11,20 +11,42 @@ namespace Calculator.Tests
     [TestClass]
     public class CalculatorTests
     {
-        [TestMethod]
-        public void AddTest()
+        [TestMethod()]
+        public void Add_0And7_ShouldBe7()
         {
-            var c = new Calculator();
+            Calculator c = new Calculator();
             c.Add(7);
-            Assert.AreEqual(7, c.Sum);
+            Assert.AreEqual(7, c.Amount);
+        }
+
+        [TestMethod()]
+        public void Subtract_10by5_ShouldBe5()
+        {
+            Calculator c = new Calculator();
+            c.Amount = 10;
+            c.Subtract(5);
+            Assert.AreEqual(5, c.Amount);
         }
 
         [TestMethod]
-        public void SubTest()
+        public void Subtract_10by1_ShouldBe9()
         {
-            var c = new Calculator();
-            c.Substract(4);
-            Assert.AreEqual(-4, c.Sum);
+            Calculator c = new Calculator();
+            c.Amount = 10;
+            c.Subtract(1);
+            Assert.AreEqual(9, c.Amount);
         }
+
+        [TestMethod()]
+        public void Divide_10By2_ShouldBe5()
+        {
+            Calculator c = new Calculator();
+            c.Amount = 10;
+            c.Divide(2);
+            Assert.AreEqual(5, c.Amount);
+        }
+
+
+
     }
 }
